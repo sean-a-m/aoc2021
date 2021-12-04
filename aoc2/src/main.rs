@@ -16,7 +16,6 @@ fn part1() {
         for maybe_line in lines {
             if let Ok(line) = maybe_line {
                 update_coordinates(&mut xy, &line);
-                //line.split_ascii_whitespace();
             }
         }
         println!("forward: {}", xy[0]);
